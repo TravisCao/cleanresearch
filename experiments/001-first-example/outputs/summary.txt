@@ -1,0 +1,5 @@
+Step-count comparison (example — your AI will replace this)
+Weekday | ###################### 9000.0
+Weekend | ################ 6200.0
+Difference: 2800.0 steps per day
+Expectation met: True

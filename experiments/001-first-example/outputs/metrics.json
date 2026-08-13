@@ -1,0 +1,9 @@
+{
+  "note": "example \u2014 your AI will replace this",
+  "weekday_days": 44,
+  "weekend_days": 16,
+  "weekday_mean_steps": 9000,
+  "weekend_mean_steps": 6200,
+  "difference_steps": 2800,
+  "expectation_met": true
+}
