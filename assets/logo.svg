@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">ResearchOS evidence chain</title>
+  <desc id="desc">Three connected nodes rise from data to a checked result.</desc>
+  <g fill="none" stroke="#3B4CCA" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M151 329 221 273M299 207l58-53"/>
+    <circle cx="108" cy="363" r="55"/>
+    <circle cx="260" cy="240" r="55"/>
+  </g>
+  <circle cx="404" cy="116" r="72" fill="#F5A623"/>
+  <path d="m369 116 24 25 48-55" fill="none" stroke="#3B4CCA" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
