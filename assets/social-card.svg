@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="title">
+  <title id="title">cleanResearch — traceable, auditable, AI-native research workspace</title>
+  <rect width="1280" height="640" fill="#FFFFFF"/>
+  <rect x="0" y="628" width="1280" height="12" fill="#3B4CCA"/>
+  <g transform="translate(408 64) scale(.52)">
+    <g fill="none" stroke="#3B4CCA" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M162 320 206 283M312 195l37-32"/>
+      <circle cx="108" cy="363" r="55"/>
+      <circle cx="260" cy="240" r="55"/>
+    </g>
+    <circle cx="404" cy="116" r="72" fill="#F5A623"/>
+    <path d="m369 116 24 25 48-55" fill="none" stroke="#3B4CCA" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="640" y="404" text-anchor="middle" fill="#1F2937" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="118" font-weight="700" textLength="940" lengthAdjust="spacingAndGlyphs">cleanResearch</text>
+  <text x="640" y="482" text-anchor="middle" fill="#4B5563" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="40">Traceable, auditable, AI-native research workspace</text>
+  <text x="640" y="556" text-anchor="middle" fill="#6B7280" font-family="-apple-system, 'PingFang SC', 'Segoe UI', sans-serif" font-size="38">让每个结论都有据可查</text>
+</svg>
