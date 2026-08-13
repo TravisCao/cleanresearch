@@ -14,6 +14,10 @@ Traceable, auditable, AI-native research.
 
 cleanResearch is an AI-native research workspace. It is a GitHub template where one folder holds one research project. It gives your AI a fixed structure and a paper trail from claim to insight to experiment to the exact code, data, and settings that produced the result. You judge the science. The AI maintains the records.
 
+![90-second demo — welcome interview, a traceable experiment, the evidence chain, and an audit](assets/demo.gif)
+
+🌐 Prefer a web page? Open the [intro page](https://traviscao.github.io/cleanresearch/).
+
 ## The pain
 
 - Your AI wrote 30 scripts. Which one is current?
