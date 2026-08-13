@@ -27,3 +27,6 @@ data/processed/*
 Thumbs.db
 *.swp
 *~
+
+# Experiment configs are evidence. Always commit them, even if a global gitignore excludes config.json.
+!experiments/**/config.json
