@@ -53,7 +53,7 @@ Your AI handles the remaining setup.
 4. Ask: “What evidence do we have for my hypothesis, and how was each result produced?”
 5. Say: “Audit the project.” The AI checks for missing evidence, unknown figure sources, incomplete records, and stale citations.
 
-You can inspect the shipped [E001 example](experiments/001-first-example/EXPERIMENT.md) immediately. It uses generated step-count data to show a complete experiment record. Stop there. You will know if ResearchOS is for you.
+You can inspect the shipped [E001 example](experiments/001-first-example/EXPERIMENT.md) immediately. It uses generated step-count data to show a complete experiment record. Prefer to read a full session first? See the [annotated demo transcript](docs/demo-transcript.md). Stop there. You will know if ResearchOS is for you.
 
 ## You say → what happens
 

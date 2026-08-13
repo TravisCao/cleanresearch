@@ -53,7 +53,7 @@ ResearchOS 是面向 AI 的科研工作区，也是一个 GitHub 项目模板。
 4. 问：“关于我的假设，我们现在有哪些证据？每个结果是怎样产生的？”
 5. 说：“审计这个项目。”AI 会检查缺失的证据、来源不明的图、不完整的记录和仍在引用的旧结果。
 
-你现在就可以查看随模板提供的 [E001 示例](experiments/001-first-example/EXPERIMENT.md)。它用生成的步数数据展示一份完整实验记录。先做到这里。你已经可以判断 ResearchOS 是否适合你。
+你现在就可以查看随模板提供的 [E001 示例](experiments/001-first-example/EXPERIMENT.md)。它用生成的步数数据展示一份完整实验记录。如果想先看一次完整的操作过程，请阅读[带注释的演示记录](docs/demo-transcript.md)。先做到这里。你已经可以判断 ResearchOS 是否适合你。
 
 ## 你说什么 → AI 做什么
 
