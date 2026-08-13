@@ -1,6 +1,6 @@
 ---
 name: tidy
-description: Put misplaced or stale ResearchOS files into their correct places without deleting them. Use when the user says the project is messy, files are hard to find, or an audit finds filing or staleness problems.
+description: Put misplaced or stale HonestLab files into their correct places without deleting them. Use when the user says the project is messy, files are hard to find, or an audit finds filing or staleness problems.
 ---
 
 # Tidy the project safely

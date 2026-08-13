@@ -1,4 +1,4 @@
-# Contributing to ResearchOS
+# Contributing to HonestLab
 
 Issues and pull requests are welcome.
 

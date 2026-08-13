@@ -8,7 +8,7 @@ Is daily step count higher on weekdays than on weekends? *(example — your AI w
 
 ## Why this matters
 
-This small question shows how ResearchOS connects a question to evidence. *(example — your AI will replace this)*
+This small question shows how HonestLab connects a question to evidence. *(example — your AI will replace this)*
 
 ## Project stage
 

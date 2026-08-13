@@ -10,11 +10,11 @@ No. Git is the tool that saves named checkpoints of your project. It must be ins
 
 ## Does my data leave my computer?
 
-The ResearchOS workspace consists of plain local files. ResearchOS does not upload them. The AI service you choose may process file contents under its own data policy, so check that vendor’s policy before using private or restricted data.
+The HonestLab workspace consists of plain local files. HonestLab does not upload them. The AI service you choose may process file contents under its own data policy, so check that vendor’s policy before using private or restricted data.
 
 ## Which AI agents work?
 
-ResearchOS is designed for Claude Code, Codex CLI, and Cursor. The shared instructions live in `AGENTS.md`; `CLAUDE.md` directs Claude Code to those rules. Other file-based agents may work if they read `AGENTS.md`, but this template does not test or promise support for them.
+HonestLab is designed for Claude Code, Codex CLI, and Cursor. The shared instructions live in `AGENTS.md`; `CLAUDE.md` directs Claude Code to those rules. Other file-based agents may work if they read `AGENTS.md`, but this template does not test or promise support for them.
 
 ## I use Codex, not Claude Code - does this work?
 
@@ -32,13 +32,13 @@ Start a fresh project from the template. Then ask your AI to migrate your files 
 
 The rules are strong defaults, not guarantees. Run “Audit this project” each week and before you share work. The audit checks for unsupported claims, incomplete experiments, unknown figure sources, stale citations, misplaced files, broken links, and missing frozen files.
 
-## Does ResearchOS work on Windows?
+## Does HonestLab work on Windows?
 
 Yes. The workspace uses plain files and Git. Prefer the paste-to-your-AI installation path in the [README](../README.md), so your agent can use commands that match your computer.
 
-## Is ResearchOS free?
+## Is HonestLab free?
 
-Yes. ResearchOS uses the [MIT License](../LICENSE), which permits use, modification, and distribution under its terms. Your AI provider may charge separately.
+Yes. HonestLab uses the [MIT License](../LICENSE), which permits use, modification, and distribution under its terms. Your AI provider may charge separately.
 
 ## How do I update the template later?
 

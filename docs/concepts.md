@@ -1,6 +1,6 @@
 # Understand your AI in 10 minutes
 
-ResearchOS works because it gives your AI a clean desk, clear instructions, and a project notebook. It does not make scientific decisions for you. It helps the AI keep the files and evidence ready for your judgment.
+HonestLab works because it gives your AI a clean desk, clear instructions, and a project notebook. It does not make scientific decisions for you. It helps the AI keep the files and evidence ready for your judgment.
 
 ## What an AI agent actually is
 
@@ -12,13 +12,13 @@ Think of the agent as a capable research assistant working at your desk. It can 
 
 The context window is the information the AI can hold in its working memory during one conversation. Imagine a desk with limited space. The AI can reason about the papers on the desk, but older or less relevant items may leave the desk as more material arrives.
 
-A messy project makes this worse. If five scripts appear to do the same job, the AI must guess which one is current. If a result has no link to its data or settings, the AI may find the number but not its meaning. ResearchOS gives each kind of information one fixed place, so the AI can find the right item with less guesswork.
+A messy project makes this worse. If five scripts appear to do the same job, the AI must guess which one is current. If a result has no link to its data or settings, the AI may find the number but not its meaning. HonestLab gives each kind of information one fixed place, so the AI can find the right item with less guesswork.
 
 ## `AGENTS.md` and `CLAUDE.md` are standing instructions
 
 Imagine a short set of rules taped above the desk. The assistant reads them whenever it starts work.
 
-[`AGENTS.md`](../AGENTS.md) contains the shared ResearchOS contract. It tells the AI where files belong, how to record an experiment, how to preserve the exact code that ran, and when it must ask you before changing scientific content. Agents that follow the `AGENTS.md` standard can use these rules.
+[`AGENTS.md`](../AGENTS.md) contains the shared HonestLab contract. It tells the AI where files belong, how to record an experiment, how to preserve the exact code that ran, and when it must ask you before changing scientific content. Agents that follow the `AGENTS.md` standard can use these rules.
 
 [`CLAUDE.md`](../CLAUDE.md) is the entry point for Claude Code. It directs Claude Code to the same shared contract and lists the available skills.
 
@@ -39,7 +39,7 @@ The card does not replace judgment. It makes the repeated file and record work c
 
 A hook is an automatic rule that runs when a named event occurs. It is like a laboratory timer that rings after a fixed step. For example, a future hook could check that an experiment record exists before an analysis command runs, or check that changed Markdown links still work after a file edit.
 
-ResearchOS does not ship any hooks today. The current skills and `AGENTS.md` tell the AI what to do, but they do not technically block an incorrect action. This is why the audit workflow matters.
+HonestLab does not ship any hooks today. The current skills and `AGENTS.md` tell the AI what to do, but they do not technically block an incorrect action. This is why the audit workflow matters.
 
 ## Memory files are the project notebook
 

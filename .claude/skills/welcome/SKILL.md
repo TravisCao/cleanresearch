@@ -1,6 +1,6 @@
 ---
 name: welcome
-description: Start or reset a ResearchOS project through a short onboarding interview. Use when the user is new, PROJECT.md has not been filled, or the user asks to start their research project.
+description: Start or reset a HonestLab project through a short onboarding interview. Use when the user is new, PROJECT.md has not been filled, or the user asks to start their research project.
 ---
 
 # Welcome the researcher

@@ -1,6 +1,6 @@
 <img src="assets/logo.svg" width="96">
 
-# ResearchOS
+# HonestLab
 
 **Your AI assistant stops getting confused by your own project — and every result keeps its receipts.**
 
@@ -12,7 +12,7 @@ Traceable, auditable, AI-native research.
 
 [中文版](README.zh-CN.md)
 
-ResearchOS is an AI-native research workspace. It is a GitHub template where one folder holds one research project. It gives your AI a fixed structure and a paper trail from claim to insight to experiment to the exact code, data, and settings that produced the result. You judge the science. The AI maintains the records.
+HonestLab is an AI-native research workspace. It is a GitHub template where one folder holds one research project. It gives your AI a fixed structure and a paper trail from claim to insight to experiment to the exact code, data, and settings that produced the result. You judge the science. The AI maintains the records.
 
 ## The pain
 
@@ -35,7 +35,7 @@ You need [Git](https://git-scm.com/) and an AI coding agent that can read and wr
 
 ### Paste this into your AI agent
 
-> Clone `https://github.com/TravisCao/research-os` into a folder named after my project. Remove the cloned `.git` folder, run `git init`, and make the first commit. Read `AGENTS.md`. Then run the welcome interview from `.claude/skills/welcome/SKILL.md`. Explain any action I need to take in plain language.
+> Clone `https://github.com/TravisCao/honestlab` into a folder named after my project. Remove the cloned `.git` folder, run `git init`, and make the first commit. Read `AGENTS.md`. Then run the welcome interview from `.claude/skills/welcome/SKILL.md`. Explain any action I need to take in plain language.
 
 Your AI handles the remaining setup.
 
@@ -46,7 +46,7 @@ Your AI handles the remaining setup.
 
 ### Or use the GitHub template
 
-1. Open [ResearchOS on GitHub](https://github.com/TravisCao/research-os) and select **Use this template**.
+1. Open [HonestLab on GitHub](https://github.com/TravisCao/honestlab) and select **Use this template**.
 2. Open your AI coding agent in the new project folder.
 3. Say: “Run the welcome interview.”
 
@@ -58,7 +58,7 @@ Your AI handles the remaining setup.
 4. Ask: “What evidence do we have for my hypothesis, and how was each result produced?”
 5. Say: “Audit the project.” The AI checks for missing evidence, unknown figure sources, incomplete records, and stale citations.
 
-You can inspect the shipped [E001 example](experiments/001-first-example/EXPERIMENT.md) immediately. It uses generated step-count data to show a complete experiment record. Prefer to read a full session first? See the [annotated demo transcript](docs/demo-transcript.md). Stop there. You will know if ResearchOS is for you.
+You can inspect the shipped [E001 example](experiments/001-first-example/EXPERIMENT.md) immediately. It uses generated step-count data to show a complete experiment record. Prefer to read a full session first? See the [annotated demo transcript](docs/demo-transcript.md). Stop there. You will know if HonestLab is for you.
 
 ## You say → what happens
 
@@ -77,7 +77,7 @@ You can inspect the shipped [E001 example](experiments/001-first-example/EXPERIM
 ## What’s in the box
 
 ```text
-research-os/
+honestlab/
 ├── .claude/skills/          single source for the six task instructions
 ├── .codex/skills/           link that gives Codex the same task instructions
 ├── assets/                  logo files used by the project guide
@@ -118,7 +118,7 @@ These are instructions for the AI, not a guarantee. The researcher still judges 
 
 ## Who it’s for / who it’s not for
 
-ResearchOS is for researchers in any field who work with AI coding agents and want a clear local record of how each result was produced. You do not need to be a programmer.
+HonestLab is for researchers in any field who work with AI coding agents and want a clear local record of how each result was produced. You do not need to be a programmer.
 
 It is not for teams that need MLflow-scale experiment tracking, shared compute management, or access controls. It is also not useful if you never use an AI agent that can work with local files.
 
@@ -137,4 +137,4 @@ These items are planned. They are not included today.
 
 ## License
 
-ResearchOS uses the [MIT License](LICENSE).
+HonestLab uses the [MIT License](LICENSE).

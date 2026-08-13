@@ -1,6 +1,6 @@
 ---
 name: status
-description: Summarize the current ResearchOS project on one screen. Use at session start after an absence or whenever the user asks where the research stands, what happened recently, or what to do next.
+description: Summarize the current HonestLab project on one screen. Use at session start after an absence or whenever the user asks where the research stands, what happened recently, or what to do next.
 ---
 
 # Show research status

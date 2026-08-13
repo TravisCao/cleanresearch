@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1720 512" role="img" aria-labelledby="title desc">
-  <title id="title">ResearchOS</title>
-  <desc id="desc">The ResearchOS evidence-chain mark and wordmark.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1795 512" role="img" aria-labelledby="title desc">
+  <title id="title">HonestLab</title>
+  <desc id="desc">The HonestLab evidence-chain mark and wordmark.</desc>
   <g transform="translate(20 20) scale(.92)">
     <g fill="none" stroke="#3B4CCA" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
       <path d="M162 320 206 283M312 195l37-32"/>
@@ -10,5 +10,5 @@
     <circle cx="404" cy="116" r="72" fill="#F5A623"/>
     <path d="m369 116 24 25 48-55" fill="none" stroke="#3B4CCA" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-  <text x="520" y="326" fill="#1F2937" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="218" font-weight="700" letter-spacing="-8">ResearchOS</text>
+  <text x="520" y="326" fill="#1F2937" font-family="-apple-system, 'Segoe UI', sans-serif" font-size="218" font-weight="700" textLength="1215" lengthAdjust="spacingAndGlyphs">HonestLab</text>
 </svg>
