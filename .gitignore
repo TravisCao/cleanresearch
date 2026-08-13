@@ -1,0 +1,29 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Large or local data files. Keep the small example CSV.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/example-steps.csv
+data/processed/*
+!data/processed/.gitkeep
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Local settings and secrets
+.env
+.env.*
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
