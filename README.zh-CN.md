@@ -39,6 +39,11 @@ ResearchOS 是面向 AI 的科研工作区，也是一个 GitHub 项目模板。
 
 剩下的设置由 AI 完成。
 
+## 支持的 AI 编程助手
+
+- **Claude Code：** 在 Claude Code 中打开项目文件夹，然后说：“开始 welcome 访谈。”
+- **Codex：** 把项目文件夹添加到 Codex，然后说：“开始 welcome 访谈。”
+
 ### 或使用 GitHub 模板
 
 1. 打开 GitHub 上的 [ResearchOS](https://github.com/TravisCao/research-os)，选择 **Use this template**。
@@ -73,7 +78,8 @@ ResearchOS 是面向 AI 的科研工作区，也是一个 GitHub 项目模板。
 
 ```text
 research-os/
-├── .claude/skills/          Claude Code 使用的六套任务说明
+├── .claude/skills/          六套任务说明的唯一来源
+├── .codex/skills/           让 Codex 使用相同任务说明的链接
 ├── assets/                  项目说明使用的标志文件
 ├── docs/                    通俗说明和演示
 ├── AGENTS.md                所有 AI 编程助手共用的规则

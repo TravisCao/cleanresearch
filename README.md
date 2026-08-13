@@ -39,6 +39,11 @@ You need [Git](https://git-scm.com/) and an AI coding agent that can read and wr
 
 Your AI handles the remaining setup.
 
+## Works with
+
+- **Claude Code:** Open the project folder and say, “Run the welcome interview.”
+- **Codex:** Add the project folder to Codex and say, “Run the welcome interview.”
+
 ### Or use the GitHub template
 
 1. Open [ResearchOS on GitHub](https://github.com/TravisCao/research-os) and select **Use this template**.
@@ -73,7 +78,8 @@ You can inspect the shipped [E001 example](experiments/001-first-example/EXPERIM
 
 ```text
 research-os/
-├── .claude/skills/          six task instructions used by Claude Code
+├── .claude/skills/          single source for the six task instructions
+├── .codex/skills/           link that gives Codex the same task instructions
 ├── assets/                  logo files used by the project guide
 ├── docs/                    plain-language guides and demonstrations
 ├── AGENTS.md                shared rules for AI coding agents

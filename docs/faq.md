@@ -16,6 +16,10 @@ The ResearchOS workspace consists of plain local files. ResearchOS does not uplo
 
 ResearchOS is designed for Claude Code, Codex CLI, and Cursor. The shared instructions live in `AGENTS.md`; `CLAUDE.md` directs Claude Code to those rules. Other file-based agents may work if they read `AGENTS.md`, but this template does not test or promise support for them.
 
+## I use Codex, not Claude Code - does this work?
+
+Yes. Add the project folder to Codex and say, “Run the welcome interview.” Codex reads the shared rules from `AGENTS.md` and finds the same six workflows under `.codex/skills/` that Claude Code uses under `.claude/skills/`.
+
 ## Can I use the ChatGPT or Claude website alone?
 
 No. You need an AI agent that can read and write files in the project folder. A chat website cannot maintain the local workspace by itself.
