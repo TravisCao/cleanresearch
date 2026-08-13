@@ -10,11 +10,11 @@ No. Git is the tool that saves named checkpoints of your project. It must be ins
 
 ## Does my data leave my computer?
 
-The HonestLab workspace consists of plain local files. HonestLab does not upload them. The AI service you choose may process file contents under its own data policy, so check that vendor’s policy before using private or restricted data.
+The cleanResearch workspace consists of plain local files. cleanResearch does not upload them. The AI service you choose may process file contents under its own data policy, so check that vendor’s policy before using private or restricted data.
 
 ## Which AI agents work?
 
-HonestLab is designed for Claude Code, Codex CLI, and Cursor. The shared instructions live in `AGENTS.md`; `CLAUDE.md` directs Claude Code to those rules. Other file-based agents may work if they read `AGENTS.md`, but this template does not test or promise support for them.
+cleanResearch is designed for Claude Code, Codex CLI, and Cursor. The shared instructions live in `AGENTS.md`; `CLAUDE.md` directs Claude Code to those rules. Other file-based agents may work if they read `AGENTS.md`, but this template does not test or promise support for them.
 
 ## I use Codex, not Claude Code - does this work?
 
@@ -32,13 +32,13 @@ Start a fresh project from the template. Then ask your AI to migrate your files 
 
 The rules are strong defaults, not guarantees. Run “Audit this project” each week and before you share work. The audit checks for unsupported claims, incomplete experiments, unknown figure sources, stale citations, misplaced files, broken links, and missing frozen files.
 
-## Does HonestLab work on Windows?
+## Does cleanResearch work on Windows?
 
 Yes. The workspace uses plain files and Git. Prefer the paste-to-your-AI installation path in the [README](../README.md), so your agent can use commands that match your computer.
 
-## Is HonestLab free?
+## Is cleanResearch free?
 
-Yes. HonestLab uses the [MIT License](../LICENSE), which permits use, modification, and distribution under its terms. Your AI provider may charge separately.
+Yes. cleanResearch uses the [MIT License](../LICENSE), which permits use, modification, and distribution under its terms. Your AI provider may charge separately.
 
 ## How do I update the template later?
 

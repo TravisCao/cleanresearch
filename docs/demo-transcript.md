@@ -1,4 +1,4 @@
-# HonestLab demo transcript
+# cleanResearch demo transcript
 
 > **Illustrative transcript — your session will differ. The example experiment it references, 001, is real and ships in this template.**
 
@@ -6,27 +6,27 @@
 
 > **Researcher:** Help me set up this project.
 >
-> **HonestLab:** What is your research field?
+> **cleanResearch:** What is your research field?
 >
 > **Researcher:** Behavioral science.
 >
-> **HonestLab:** What is your main research question in one sentence?
+> **cleanResearch:** What is your main research question in one sentence?
 >
 > **Researcher:** Is daily step count higher on weekdays than on weekends?
 >
-> **HonestLab:** What data do you have now?
+> **cleanResearch:** What data do you have now?
 >
 > **Researcher:** A generated file with daily step counts for 60 days.
 >
-> **HonestLab:** I’ll record the question and data in `PROJECT.md`, and your working terms and reply preferences in `memory/`. Before I add H1 to `hypotheses.md`, do you confirm this wording: “Daily step count is higher on weekdays than on weekends”?
+> **cleanResearch:** I’ll record the question and data in `PROJECT.md`, and your working terms and reply preferences in `memory/`. Before I add H1 to `hypotheses.md`, do you confirm this wording: “Daily step count is higher on weekdays than on weekends”?
 
-*Annotation: The welcome skill collected the project context, but HonestLab still asks the researcher before it changes a hypothesis.*
+*Annotation: The welcome skill collected the project context, but cleanResearch still asks the researcher before it changes a hypothesis.*
 
 ## Scene 2 — Run a traceable experiment
 
 > **Researcher:** Yes. Test it by comparing the average weekday and weekend step counts.
 >
-> **HonestLab:** I found no earlier experiment, so this will be E001. I created `experiments/001-first-example/EXPERIMENT.md` before running the analysis. Its pre-run record says:
+> **cleanResearch:** I found no earlier experiment, so this will be E001. I created `experiments/001-first-example/EXPERIMENT.md` before running the analysis. Its pre-run record says:
 >
 > ```markdown
 > ## Expectation — written before the run
@@ -42,7 +42,7 @@
 >
 > I will now run that exact command, preserve the executed code and configuration in the experiment folder, and record the outputs.
 >
-> **HonestLab:** The run completed. The weekday mean was 9,000 steps across 44 days. The weekend mean was 6,200 steps across 16 days. The difference was 2,800 steps per day, so the expectation was met. This supports H1 only within the generated example data; it does not show a pattern in real people.
+> **cleanResearch:** The run completed. The weekday mean was 9,000 steps across 44 days. The weekend mean was 6,200 steps across 16 days. The difference was 2,800 steps per day, so the expectation was met. This supports H1 only within the generated example data; it does not show a pattern in real people.
 
 *Annotation: The expectation was recorded before the run. This is rule 4 of `AGENTS.md`; the saved code and configuration apply rule 6.*
 
@@ -50,7 +50,7 @@
 
 > **Researcher:** What evidence do we have for my hypothesis and how was each result produced?
 >
-> **HonestLab:** H1 is supported only by the generated example data. Here is the complete chain:
+> **cleanResearch:** H1 is supported only by the generated example data. Here is the complete chain:
 >
 > 1. **Hypothesis:** `hypotheses.md` links H1 to E001.
 > 2. **Insight:** `insights.md` records that the weekday mean was 2,800 steps per day higher in this example.
@@ -67,7 +67,7 @@
 
 > **Researcher:** I added “Weekday schedules cause people to walk more” to `manuscript/claims.md`. Audit the project before I share it.
 >
-> **HonestLab:** I found one problem that can invalidate a claim:
+> **cleanResearch:** I found one problem that can invalidate a claim:
 >
 > - **Location:** `manuscript/claims.md`
 > - **Problem:** “Weekday schedules cause people to walk more” has no experiment ID, and E001 compares generated groups without testing cause.

@@ -1,4 +1,4 @@
-# Contributing to HonestLab
+# Contributing to cleanResearch
 
 Issues and pull requests are welcome.
 

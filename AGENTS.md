@@ -1,6 +1,6 @@
-# HonestLab agent contract
+# cleanResearch agent contract
 
-What this file is: the rules for every AI that works in this project. Who writes it: the HonestLab maintainers. When you read it: at the start of every session and before any scientific work.
+What this file is: the rules for every AI that works in this project. Who writes it: the cleanResearch maintainers. When you read it: at the start of every session and before any scientific work.
 
 The researcher judges the science. You maintain the files, links, and evidence trail. Always follow these ten rules.
 
@@ -64,7 +64,7 @@ Write one reusable conclusion in one or two sentences.
 ## Skills
 
 - [welcome](.claude/skills/welcome/SKILL.md): start a new project through a short interview.
-- [help](.claude/skills/help/SKILL.md): explain HonestLab and choose the right action.
+- [help](.claude/skills/help/SKILL.md): explain cleanResearch and choose the right action.
 - [experiment](.claude/skills/experiment/SKILL.md): plan, run, freeze, and record a scientific experiment.
 - [audit](.claude/skills/audit/SKILL.md): check the evidence trail before sharing work.
 - [status](.claude/skills/status/SKILL.md): show the current research state on one screen.

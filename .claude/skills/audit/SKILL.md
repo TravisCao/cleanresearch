@@ -1,6 +1,6 @@
 ---
 name: audit
-description: Check the integrity and traceability of a HonestLab project. Use when the user asks to check or audit the project, before the work is shared or submitted, or when a monthly integrity check is due.
+description: Check the integrity and traceability of a cleanResearch project. Use when the user asks to check or audit the project, before the work is shared or submitted, or when a monthly integrity check is due.
 ---
 
 # Audit the evidence trail

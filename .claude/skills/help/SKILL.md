@@ -1,6 +1,6 @@
 ---
 name: help
-description: Explain HonestLab and guide a beginner to the right skill or action. Use when the user is lost, asks what the AI can do or which skill to use, asks what a skill, hook, memory, or CLAUDE.md means, or asks any other question about how the workspace works.
+description: Explain cleanResearch and guide a beginner to the right skill or action. Use when the user is lost, asks what the AI can do or which skill to use, asks what a skill, hook, memory, or CLAUDE.md means, or asks any other question about how the workspace works.
 ---
 
 # Help the researcher
@@ -16,7 +16,7 @@ Identify the immediate problem. Ask at most two short questions. Then give one d
 | Check whether the work is traceable | “Audit this project.” The [audit skill](../audit/SKILL.md) finds missing evidence and records. |
 | See the current state | “Show my research status.” The [status skill](../status/SKILL.md) gives a one-screen view. |
 | Clean up files | “Tidy this project.” The [tidy skill](../tidy/SKILL.md) proposes safe moves and archives old files. |
-| Understand HonestLab | “Help me understand …” The **help** skill explains it in plain language. |
+| Understand cleanResearch | “Help me understand …” The **help** skill explains it in plain language. |
 
 ## Explain unfamiliar parts
 

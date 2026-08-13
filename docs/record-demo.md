@@ -1,4 +1,4 @@
-# Maintainer checklist: record the HonestLab demo
+# Maintainer checklist: record the cleanResearch demo
 > For maintainers only. Record in a throwaway clone so the repository remains clean.
 - [ ] Use a 1280 × 800 terminal with a 20–22 px monospace font.
 - [ ] Hide notifications, personal paths, account names, and shell history.

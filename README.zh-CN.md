@@ -1,6 +1,6 @@
 <img src="assets/logo.svg" width="96">
 
-# HonestLab
+# cleanResearch
 
 **让 AI 助手不再被你的项目绕晕，也让每个结果都有据可查。**
 
@@ -12,7 +12,7 @@
 
 [English README](README.md)
 
-HonestLab（意为“诚实实验室”）是面向 AI 的科研工作区，也是一个 GitHub 项目模板。一个文件夹对应一个研究项目。它给 AI 一套固定的项目结构，并把论文主张、研究结论、实验，以及实际运行的代码、数据和配置连成一条证据链。你判断科学问题，AI 维护文件和记录。
+cleanResearch（意为“干干净净做研究”）是面向 AI 的科研工作区，也是一个 GitHub 项目模板。一个文件夹对应一个研究项目。它给 AI 一套固定的项目结构，并把论文主张、研究结论、实验，以及实际运行的代码、数据和配置连成一条证据链。你判断科学问题，AI 维护文件和记录。
 
 ## 你可能遇到过这些问题
 
@@ -35,7 +35,7 @@ HonestLab（意为“诚实实验室”）是面向 AI 的科研工作区，也�
 
 ### 把这段话发给你的 AI
 
-> 把 `https://github.com/TravisCao/honestlab` 克隆到一个以我的项目命名的文件夹。删除克隆项目中的 `.git` 文件夹，运行 `git init`，并创建第一次提交。阅读 `AGENTS.md`，然后按照 `.claude/skills/welcome/SKILL.md` 开始欢迎访谈。需要我操作时，请用通俗语言说明。
+> 把 `https://github.com/TravisCao/cleanresearch` 克隆到一个以我的项目命名的文件夹。删除克隆项目中的 `.git` 文件夹，运行 `git init`，并创建第一次提交。阅读 `AGENTS.md`，然后按照 `.claude/skills/welcome/SKILL.md` 开始欢迎访谈。需要我操作时，请用通俗语言说明。
 
 剩下的设置由 AI 完成。
 
@@ -46,7 +46,7 @@ HonestLab（意为“诚实实验室”）是面向 AI 的科研工作区，也�
 
 ### 或使用 GitHub 模板
 
-1. 打开 GitHub 上的 [HonestLab](https://github.com/TravisCao/honestlab)，选择 **Use this template**。
+1. 打开 GitHub 上的 [cleanResearch](https://github.com/TravisCao/cleanresearch)，选择 **Use this template**。
 2. 在新项目文件夹中打开 AI 编程助手。
 3. 对它说：“开始 welcome 访谈。”
 
@@ -58,7 +58,7 @@ HonestLab（意为“诚实实验室”）是面向 AI 的科研工作区，也�
 4. 问：“关于我的假设，我们现在有哪些证据？每个结果是怎样产生的？”
 5. 说：“审计这个项目。”AI 会检查缺失的证据、来源不明的图、不完整的记录和仍在引用的旧结果。
 
-你现在就可以查看随模板提供的 [E001 示例](experiments/001-first-example/EXPERIMENT.md)。它用生成的步数数据展示一份完整实验记录。如果想先看一次完整的操作过程，请阅读[带注释的演示记录](docs/demo-transcript.md)。先做到这里。你已经可以判断 HonestLab 是否适合你。
+你现在就可以查看随模板提供的 [E001 示例](experiments/001-first-example/EXPERIMENT.md)。它用生成的步数数据展示一份完整实验记录。如果想先看一次完整的操作过程，请阅读[带注释的演示记录](docs/demo-transcript.md)。先做到这里。你已经可以判断 cleanResearch 是否适合你。
 
 ## 你说什么 → AI 做什么
 
@@ -77,7 +77,7 @@ HonestLab（意为“诚实实验室”）是面向 AI 的科研工作区，也�
 ## 模板里有什么
 
 ```text
-honestlab/
+cleanresearch/
 ├── .claude/skills/          六套任务说明的唯一来源
 ├── .codex/skills/           让 Codex 使用相同任务说明的链接
 ├── assets/                  项目说明使用的标志文件
@@ -118,9 +118,9 @@ honestlab/
 
 ## 适合谁，不适合谁
 
-HonestLab 适合任何领域中经常使用 AI 编程助手，并希望清楚记录每个结果来源的研究者。你不需要会编程。
+cleanResearch 适合任何领域中经常使用 AI 编程助手，并希望清楚记录每个结果来源的研究者。你不需要会编程。
 
-如果团队需要 MLflow 规模的实验追踪、共享计算资源管理或权限控制，HonestLab 不适合你。如果你从不使用能操作本地文件的 AI 助手，它也无法发挥作用。
+如果团队需要 MLflow 规模的实验追踪、共享计算资源管理或权限控制，cleanResearch 不适合你。如果你从不使用能操作本地文件的 AI 助手，它也无法发挥作用。
 
 ## 常见问题
 
@@ -137,4 +137,4 @@ HonestLab 适合任何领域中经常使用 AI 编程助手，并希望清楚记
 
 ## 许可证
 
-HonestLab 使用 [MIT License](LICENSE)。
+cleanResearch 使用 [MIT License](LICENSE)。
